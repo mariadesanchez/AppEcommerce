@@ -76,7 +76,7 @@ const Checkout = () => {
     });
     try {
       let response = await axios.post(
-        "https://ecommerceback-woad.vercel.app/create_preference",
+        "https://appecommerceback.vercel.app/create_preference",
         {
           items: newArray,
           shipment_cost: shipmentCost,
